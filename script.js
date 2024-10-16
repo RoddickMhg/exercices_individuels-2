@@ -1,10 +1,11 @@
-function sayHello(){
+function sayHello(firstname){
 let message = "Bonjour !"
 
 console.log(message)
 
-let firstname = "Beyonce"
+firstname = "Beyonce"
 
 message = ("Bonjour" +" " + firstname + " !")
 console.log(message)
 }
+sayHello()
